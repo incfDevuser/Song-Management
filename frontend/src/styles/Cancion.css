@@ -1,0 +1,50 @@
+.listItemCancion{
+    list-style-type: none;
+}
+.tableDisplay{
+    display: flex;
+    gap: 30px;
+}
+.titulo{
+    font-size: larger;
+}
+.artista{
+    font-size: larger;
+}
+.tono{
+    font-size: larger;
+}
+.contenedorTable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btnContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.btnActualizar{
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #003566 ;
+    color: white;
+}
+.btnEliminar{
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px;   
+    background-color: red;
+    color: white;
+}
+.btnActualizar:hover{
+    background-color: #00008b;
+}
+.btnEliminar:hover{
+    background-color: #cc0000 ;
+}

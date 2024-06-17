@@ -1,0 +1,61 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.inputTitulo{
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    border-style: none;
+    border: 1px solid #dad7cd;
+    border-radius: 8px;
+}
+.inputArtista{
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    border-style: none;
+    border: 1px solid #dad7cd;
+    border-radius: 8px;
+}
+.inputTono{
+    width: 400px;
+    height: 30px;
+    padding: 8px;
+    border-style: none;
+    border: 1px solid #dad7cd;
+    border-radius: 8px;
+}
+.btnAgregar{
+    width: 150px;
+    padding: 12px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+.song{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.artist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+}

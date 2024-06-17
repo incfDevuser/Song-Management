@@ -1,0 +1,14 @@
+.containerApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.containerApp>h1{
+    text-align: center;
+    color: black;
+}
+.canciones{
+    margin-top: 30px;
+}
